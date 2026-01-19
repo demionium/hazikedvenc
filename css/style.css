@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    color: white;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Roboto Serif", serif;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+}
+
+.box {
+    background-color: rgb(217 217 217 / .3);
+    text-align: justify;
+}
+
+main hr {
+    border-top: 4px dotted;
+}
+
+footer hr {
+    width: 90%;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.instagram {
+    width: 30px;
+}
+
+a {
+    color: rgb(49 210 242);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(49 210 242);
+    text-decoration: underline;
+}
+
+li {
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.btn {
+    border-radius: 30px;
+}
+
+.erdekessegek {
+    width: 70%;
+    margin: auto;
+}
+
+.galeria {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border: white 2px solid;
+}
+
+.galeriadiv {
+    margin: auto;
+}
